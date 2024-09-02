@@ -1,0 +1,20 @@
+html { 
+  font-size:max(20px, 2vw + 1vh + 1pt);
+  line-height: 1.618;
+}
+
+body { margin: 0; padding: 1.618em }
+h1 { font-size: 1.618em; margin: 0 }
+em { font-size: 1.236em; font-style: unset }
+:focus { outline: thick dotted }
+:any-link:hover { text-decoration-style: double }
+
+kbd {
+  display: inline-block;
+  font: unset;
+  font-size: 2em;
+  margin-block: 2em;
+  padding-block: 1em;
+  padding-inline: 2em;
+  text-indent: 1em;
+}
